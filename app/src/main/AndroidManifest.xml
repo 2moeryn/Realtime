@@ -13,6 +13,16 @@
         android:theme="@style/Theme.Realtime"
         tools:targetApi="31">
         <activity
+            android:name=".ChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LogAbsensiActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Realtime" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
             android:name=".SettingsFragment"
             android:exported="false" />
         <activity
@@ -22,7 +32,7 @@
             android:name=".HomeFragment"
             android:exported="false" />
         <activity
-            android:name=".DashboardActivity"
+            android:name=".HomeActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
